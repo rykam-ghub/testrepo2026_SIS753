@@ -7,7 +7,7 @@ You cannot execute code from here. This isn't 'R', but you can write code:
 
 ---
 library(tidyverse)
-ggplot(mtcars, aes (x = wt, y = disp))+ 
+ggplot(mtcars, aes (x = wt, y = disp)) + 
   geom_point()
 ---
 
